@@ -1,0 +1,87 @@
+
+/* STYLE VINVIN */
+.clearfix {
+clear: both;
+}
+ul{ list-style:none;margin:0}
+.fleft{float:left !important;}
+.fright{float:right !important;}	
+
+
+#loader{
+height:50px;
+width:50px;
+background:url('./images/ajax-loader.gif')no-repeat;
+display:none;
+margin: 200px auto;
+}
+
+.item_result {
+float: left;
+width: 30%;
+border: 1px solid #ddd;
+/* padding: 5px; */
+position:relative;
+text-align: center;
+margin: 5px;
+height: 200px;
+}
+
+.title_item_result { word-break: break-all; padding: 5px;}
+
+.links {
+background: rgb(192, 181, 181);
+position: absolute;
+width: 100%;
+bottom: 0;
+/*min-height: 50px;*/
+padding: 5px 0 0;
+opacity: 0.6;
+}
+
+div.links a {
+word-break: break-all;
+padding: 0 7px;
+width: 90%;
+display: block;
+margin: auto;
+}
+
+.item_result.item_loader {
+background: url('./images/ajax-loader.gif') no-repeat center center;
+border:none;
+}
+
+/* Lightbox */
+#more_options_wrapper {
+float: right;
+}
+#lbx_more_options {
+
+position: absolute;
+top: 30%;
+left: 40%;
+background: #fff;
+padding: 5px;box-shadow: 5px 3px 10px #272727;
+}
+
+#lightbox {
+display:none;
+position: absolute;
+background: grey;
+width: 100%;
+height: 100%;
+opacity: 0.4;
+}
+
+.lbx_margin {
+border: 1px solid #ddd;
+margin: 10px;
+padding: 5px 30px;
+}
+
+#lightbox label, #lightbox input {
+float: left;
+margin: 30px;
+}
+
